@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 900px;
+    background: url(pollakbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blur {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0.8em);
+}
+.bg-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    padding-top: 140px;
+}
+h1{
+    font-size: 4.5rem;
+}
+p{
+    font-size: 1.5rem;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: 0px;
+    background:rgb(78, 151, 87);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.svg{
+    width: 100%;
+    position: absolute;
+}
+
+.container-2{
+    height: 1000px;
+    background:rgb(182, 179, 179);
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
